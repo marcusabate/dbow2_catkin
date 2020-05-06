@@ -10,7 +10,7 @@ file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 
 ExternalProject_Add(dbow2_src
   GIT_REPOSITORY https://github.com/dorian3d/DBoW2.git
-  GIT_TAG origin/master
+  GIT_TAG master
   GIT_PROGRESS 1
   UPDATE_COMMAND ""
   #PATCH_COMMAND ""
